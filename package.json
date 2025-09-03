@@ -1,17 +1,12 @@
 {
-  "name": "sexusabortus",
+  "name": "simple-messenger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Простой мессенджер на WebSocket",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "ws": "file:./node_modules/ws"
+    "ws": "^8.13.0"
   }
 }
